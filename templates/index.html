@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    </head>
+    <body>
+        <h1>Job Application Form</h1>
+        <form>
+            <div class="">
+                <label for="first_name"> First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+            </div>
+            <div class="">
+                <label for="last_name"> Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+            </div>
+            <div class="">
+                <label for="email"> Email:</label>
+                <input type='email' id="email" name="email" required>
+            </div>
+            <div class="">
+                <label for="start_date"> Available start date:</label>
+                <input type='date' id="start_date" name="start_date" required>
+            </div>
+            <div>
+                <label>Current occupation:</label>
+                <br>
+                <div id="occupation">
+                    <input type="radio" id="employed" name="occupation" required>
+                    <label for="employed">Employed</label>
+
+                    <input type="radio" id="unemployed" name="occupation" required>
+                    <label for="unemployed">Unemployed</label>
+
+                    <input type="radio" id="self_employed" name="occupation" required>
+                    <label for="self_employed">Self-Employed</label>
+
+                    <input type="radio" id="student" name="occupation" required>
+                    <label for="student">Student</label>
+                </div>
+            </div>
+            <div>
+                <button type="button">Submit</button>
+            </div>
+        </form>
+    </body>
+</html>
